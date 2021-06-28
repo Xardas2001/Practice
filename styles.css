@@ -1,0 +1,139 @@
+#welcomediv{
+	background-color: white;
+	font-size: 35px;
+	color: #56271B;
+	border-bottom: 3px solid #56271B;
+	text-align: center;
+	opacity: 0.7;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	width: 600px;
+	margin-left: 450px;
+	transition:0.5s;
+}
+
+#link1{
+	color:#44042F;
+}
+
+#link1:hover{
+	color:red;
+}
+
+#welcomediv:hover{
+	opacity: 0.95;
+	box-shadow: 10px 10px 30px #56271B;
+	transform: scale(1.01);
+	border: 3px solid #56271B;
+}
+
+#firstdiv{
+	float: left;
+	background-color: white;
+	color: #ff6a00;
+	opacity: 0.7;
+	margin-top: 15px;
+	margin-left: 10px;
+	border-bottom: 3px solid #56271B;
+	border-radius: 10px;
+	width: 45%;
+	transition:0.5s;
+}
+
+.aboutdiv{
+	color: #56271B;
+	text-align: center;
+}
+
+#firstdiv:hover{
+	transform:scale(1.01);
+	opacity: 0.95;
+	box-shadow: 10px 10px 15px #56271B;
+	border: 3px solid #56271B;
+}
+
+.images{
+	transition:1.0s;
+}
+
+.images:hover{
+	transform:translate(20px, 20px);
+}
+
+.unordere_dlist{
+	font-size: 20px;
+}
+
+#seconddiv{
+	padding-left: 10px;
+	float: right;
+	background-color: white;
+	color: #ff6a00;
+	opacity: 0.7;
+	margin-top: 15px;
+	margin-left: 10px;
+	border-bottom: 3px solid #56271B;
+	border-radius: 10px;
+	width: 45%;
+	transition:0.5s;
+}
+
+#seconddiv:hover{
+	transform:scale(1.01);
+	opacity: 0.95;
+	box-shadow: 10px 10px 15px #56271B;
+	border: 3px solid #56271B;
+}
+
+li{
+	background: #F0EAD6;
+	width: 350px;
+	padding: 5px;
+	border: 1px dashed black;
+	border-radius: 10px;
+}
+
+#songdiv{
+	color: #56271B;
+	float: left;
+	width: 500px;
+	height: 200px;
+	margin: 10px;
+	border-radius: 10px;
+	border-bottom: 3px solid #56271B;
+	opacity: 0.7;
+	text-align: center;
+	background-image:url("files/Жито.jpg");
+	transition:0.5s;
+}
+
+#songdiv:hover{
+	border: 3px solid #56271B;
+	opacity: 0.95;
+	transform: scale(1.01);
+	box-shadow: 10px 10px 15px #56271B;
+}
+
+#videodiv{
+	background-color: white;
+	opacity: 0.7;
+	float: right;
+	margin-top: 10px;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+
+#videodiv:hover{
+	opacity: 0.95;
+	transform: scale(1.01);
+}
+
+#videointro{
+	color: #56271B;
+	text-align:center;
+}
+
+body{
+	background-image: url(files/fault.jpg);
+}
